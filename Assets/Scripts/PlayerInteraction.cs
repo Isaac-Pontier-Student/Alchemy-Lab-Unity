@@ -24,8 +24,9 @@ public class PlayerInteraction : MonoBehaviour
             //... gameObject, then get the InteractionObject script from that
         }
 
-        if (targetInteraction)
+        if (targetInteraction && targetInteraction.enabled)
         {
+            //but we still need to check if the component is enabled as well as valid
             interactionText = targetInteraction.GetInteractionText();
         }   
         SetInteractableNameText(interactionText); //fif we're looking at an object that can be interacted with, it will display the interaction text that stays until we interact with it
@@ -41,7 +42,7 @@ public class PlayerInteraction : MonoBehaviour
 
     public void TryInteract()
     {
-        if (targetInteraction)
+        if (targetInteraction && targetInteraction.enabled)
         {
             targetInteraction.Interact();
         }

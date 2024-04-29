@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,6 +8,11 @@ public class InteractionObject : MonoBehaviour
     public UnityEvent onInteract = new UnityEvent(); //new interaction event
     //listeners are added in the unity editor
 
+    private void OnEnable()
+    {
+        //this is required, even if empty, to enable/disable scripts in the editor and game
+    }
+
     public string GetInteractionText() //getter not setter
     {
         return interactionText;
@@ -14,7 +20,7 @@ public class InteractionObject : MonoBehaviour
 
     public void Interact()
     {
-        onInteract.Invoke(); //raising the event
+            onInteract.Invoke(); //raising the event
         //in this script, subscribers/listeners are handled in the editor, but if I wanted to code subscribers here I would write onInteract.AddListener([name of a function goes here]);
     }
 }
