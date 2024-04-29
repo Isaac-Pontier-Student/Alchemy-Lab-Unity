@@ -25,7 +25,7 @@ public class InputHandler : MonoBehaviour
         HandleInteractionInput();
     }
 
-    void HandleCameraInput() //why not just put these in Update without special functions
+    void HandleCameraInput()
     {
         firstPersonCamera.AddXAxisInput(Input.GetAxis("Mouse Y") * Time.deltaTime);
         firstPersonCamera.AddYAxisInput(Input.GetAxis("Mouse X") * Time.deltaTime);

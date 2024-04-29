@@ -28,7 +28,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             interactionText = targetInteraction.GetInteractionText();
         }   
-        SetInteractableNameText(interactionText);
+        SetInteractableNameText(interactionText); //fif we're looking at an object that can be interacted with, it will display the interaction text that stays until we interact with it
     }
 
     private void SetInteractableNameText(string newText)
