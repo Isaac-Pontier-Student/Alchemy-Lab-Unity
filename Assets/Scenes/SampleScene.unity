@@ -1069,7 +1069,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b4f8ea5c698c9a545b536e2052a2f2c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1097881212}
   m_SourcePrefab: {fileID: 100100000, guid: b4f8ea5c698c9a545b536e2052a2f2c6, type: 3}
 --- !u!4 &147131070 stripped
 Transform:
@@ -6435,21 +6438,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d389a3f2d647b48b2cf6516450fea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveText: Pour chloric acid into the cauldron.
+  objectiveText: What to use it on?
   onCompleteObjective:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 1286804145}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   objectiveDisplay: {fileID: 2110295283}
 --- !u!1 &630033030 stripped
@@ -7407,7 +7410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e6b1364b4206d3b4d8747456c4684432, type: 3}
       propertyPath: m_Name
-      value: Assets.fbx_VialLarge
+      value: Sap
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e6b1364b4206d3b4d8747456c4684432, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7416,7 +7419,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e6b1364b4206d3b4d8747456c4684432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1851531519}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e6b1364b4206d3b4d8747456c4684432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1851531520}
   m_SourcePrefab: {fileID: 100100000, guid: e6b1364b4206d3b4d8747456c4684432, type: 3}
 --- !u!4 &684355745 stripped
 Transform:
@@ -8219,21 +8228,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d389a3f2d647b48b2cf6516450fea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveText: Pour chloric acid into the cauldron.
+  objectiveText: Bring the pan to the cauldron.
   onCompleteObjective:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 1286804145}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   objectiveDisplay: {fileID: 2110295283}
 --- !u!4 &738644230 stripped
@@ -8478,7 +8487,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1444390585252962155, guid: 932db18d377b56b42a34d0e317649d60, type: 3}
 --- !u!1001 &758831269
@@ -9803,6 +9812,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 2, z: 0.22000009}
   m_Center: {x: 0, y: 1, z: 0.009999998}
+--- !u!1 &879986150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c4549a30f57020a48ac36e3c287210a0, type: 3}
+  m_PrefabInstance: {fileID: 1811574891}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &887067229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11484,7 +11498,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b4f8ea5c698c9a545b536e2052a2f2c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1932330428}
   m_SourcePrefab: {fileID: 100100000, guid: b4f8ea5c698c9a545b536e2052a2f2c6, type: 3}
 --- !u!4 &1019466218 stripped
 Transform:
@@ -12206,6 +12223,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0f48410718a8bef45a1831ac82303f19, type: 3}
   m_PrefabInstance: {fileID: 1095642518}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1097881209 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b4f8ea5c698c9a545b536e2052a2f2c6, type: 3}
+  m_PrefabInstance: {fileID: 134143321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1097881212
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097881209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0283481, y: 1.4999999, z: 0.20000008}
+  m_Center: {x: 0, y: 0.74999994, z: 0}
 --- !u!1001 &1116648278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12594,7 +12637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69eed19e6b58f5844b4c864cbf8949f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: Pick up Benzene
+  interactionText: Pick up benzene
   onInteract:
     m_PersistentCalls:
       m_Calls:
@@ -13072,21 +13115,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d389a3f2d647b48b2cf6516450fea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveText: Pour chloric acid into the cauldron.
+  objectiveText: 'Next ingredient: bone marrow...?'
   onCompleteObjective:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 1286804145}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   objectiveDisplay: {fileID: 2110295283}
 --- !u!1001 &1197466542
@@ -13701,21 +13744,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d389a3f2d647b48b2cf6516450fea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveText: Pour chloric acid into the cauldron.
+  objectiveText: Take the finished shrink potion.
   onCompleteObjective:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 1286804145}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   objectiveDisplay: {fileID: 2110295283}
 --- !u!1001 &1260076512
@@ -14183,6 +14226,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 59b80ba8c10c5464d826be8c7b29d100, type: 3}
   m_PrefabInstance: {fileID: 1283243875}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1286804145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1286804146}
+  - component: {fileID: 1286804147}
+  m_Layer: 0
+  m_Name: Objective13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1286804146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286804145}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1956223663}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1286804147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286804145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d389a3f2d647b48b2cf6516450fea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveText: Escape!
+  onCompleteObjective:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2128485645}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: TitleScreen
+          m_BoolArgument: 0
+        m_CallState: 2
+  objectiveDisplay: {fileID: 2110295283}
 --- !u!1001 &1287095131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15592,17 +15696,17 @@ MonoBehaviour:
   onCompleteObjective:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 1286804145}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   objectiveDisplay: {fileID: 2110295283}
 --- !u!1001 &1462998016
@@ -19375,7 +19479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c4549a30f57020a48ac36e3c287210a0, type: 3}
       propertyPath: m_Name
-      value: Assets.fbx_JarLarge
+      value: SapRefill
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c4549a30f57020a48ac36e3c287210a0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19384,13 +19488,92 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c4549a30f57020a48ac36e3c287210a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1811574896}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c4549a30f57020a48ac36e3c287210a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1811574895}
   m_SourcePrefab: {fileID: 100100000, guid: c4549a30f57020a48ac36e3c287210a0, type: 3}
 --- !u!4 &1811574892 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c4549a30f57020a48ac36e3c287210a0, type: 3}
   m_PrefabInstance: {fileID: 1811574891}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1811574895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879986150}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69eed19e6b58f5844b4c864cbf8949f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Refill sap bottle
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 168487334}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811574895}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1903944514}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!65 &1811574896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879986150}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13427857, y: 0.17642257, z: 0.19884948}
+  m_Center: {x: 0.00000011801628, y: 0.087887704, z: 0.0322849}
 --- !u!1001 &1811779097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19705,6 +19888,84 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1046791741160719741, guid: 56a5539ed52d294419c97aa991a61011, type: 3}
   m_PrefabInstance: {fileID: 1920432460}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1851531516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e6b1364b4206d3b4d8747456c4684432, type: 3}
+  m_PrefabInstance: {fileID: 684355744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1851531519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851531516}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69eed19e6b58f5844b4c864cbf8949f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Pick up sap
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1851531516}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1230934908}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1811574895}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!65 &1851531520
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851531516}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.050000016, y: 0.23570612, z: 0.05000001}
+  m_Center: {x: -0.0000000014980174, y: 0.117853075, z: -7.1832673e-10}
 --- !u!1001 &1852850713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20240,17 +20501,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1594145235}
-        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
-        m_MethodName: CompleteObjective
-        m_Mode: 1
+      - m_Target: {fileID: 1851531519}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &1907885855 stripped
 GameObject:
@@ -20539,6 +20800,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 2, z: 0.22000009}
   m_Center: {x: 0, y: 1, z: 0.009999998}
+--- !u!1 &1932330425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b4f8ea5c698c9a545b536e2052a2f2c6, type: 3}
+  m_PrefabInstance: {fileID: 1019466217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1932330428
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932330425}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0283481, y: 1.4999999, z: 0.20000008}
+  m_Center: {x: 0, y: 0.74999994, z: 0}
 --- !u!1001 &1934916211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21050,6 +21337,7 @@ Transform:
   - {fileID: 734080466}
   - {fileID: 1240129977}
   - {fileID: 628524864}
+  - {fileID: 1286804146}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1957777936
@@ -21123,7 +21411,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b4f8ea5c698c9a545b536e2052a2f2c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2129000402}
   m_SourcePrefab: {fileID: 100100000, guid: b4f8ea5c698c9a545b536e2052a2f2c6, type: 3}
 --- !u!4 &1957777937 stripped
 Transform:
@@ -22847,7 +23138,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 16
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -23208,6 +23499,76 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c985b77b4e89c48a08c68715005651, type: 3}
+--- !u!1 &2128485644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2128485646}
+  - component: {fileID: 2128485645}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2128485645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128485644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf22ed8bf13b4745b62e2353caa248d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2128485646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128485644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2129000399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b4f8ea5c698c9a545b536e2052a2f2c6, type: 3}
+  m_PrefabInstance: {fileID: 1957777936}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2129000402
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129000399}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0283477, y: 1.4999999, z: 0.20000002}
+  m_Center: {x: 0, y: 0.74999994, z: 0}
 --- !u!1001 &2134316173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23711,3 +24072,4 @@ SceneRoots:
   - {fileID: 915910910}
   - {fileID: 1773010925}
   - {fileID: 1956223663}
+  - {fileID: 2128485646}

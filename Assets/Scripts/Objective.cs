@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class Objective : MonoBehaviour
 {
     [SerializeField] private string objectiveText = "I am an objective!";
-    //[SerializeField] private string completedText = "Objective completed.";
      
     public UnityEvent onCompleteObjective = new UnityEvent();
 

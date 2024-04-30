@@ -8,6 +8,13 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float maxDistance = 2.0f;
     [SerializeField] private Text interactableName; //this is to be set in the editor
     private InteractionObject targetInteraction; //InteractionObject script reference used to determine if we're looking at an object with an interaction script
+    private CauldronInteractions cauldronScript;
+    private int cauldronCounter = 0; //starts us counting cauldron objectives at the first one 
+
+    void Start()
+    {
+        cauldronScript = GetComponent<CauldronInteractions>(); //cauldron objective completion script access/reference
+    }
 
     // Update is called once per frame
     void Update()
@@ -45,6 +52,13 @@ public class PlayerInteraction : MonoBehaviour
         if (targetInteraction && targetInteraction.enabled)
         {
             targetInteraction.Interact();
+            if (targetInteraction.gameObject.name == "Cauldron")
+            {
+                print("Just interacted with the cauldron");
+                cauldronScript.ObjectiveComplete(cauldronCounter);
+                cauldronCounter++;
+                //probably needs some kind of reset when the game is finished and started again
+            }
         }
     }    
 }
