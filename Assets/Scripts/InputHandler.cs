@@ -36,6 +36,14 @@ public class InputHandler : MonoBehaviour
         float forwardInput = Input.GetAxis("Vertical");
         float rightInput = Input.GetAxis("Horizontal");
         characterMovement.AddMoveInput(forwardInput, rightInput);
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            characterMovement.moveSpeed = 8.5f;
+        }
+        else
+        {
+            characterMovement.moveSpeed = 5.0f;
+        }
     }
 
     void HandleInteractionInput()
